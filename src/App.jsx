@@ -2,9 +2,6 @@ import React from 'react';
 import weatherHandler from "./weatherHandler";
 import './Weather.css';
 class Weather extends React.Component{
-  
-  
-
   render(){
     return <div classNameName="App">
       <section className="contentPanel">
@@ -24,7 +21,7 @@ class Weather extends React.Component{
                     <li id="city"></li>
                     <hr/>
                     <li id="state"></li>
-                    <li><img id="image"/></li>
+                    <li><img id="image" alt=""/></li>
                     <li id="temperature"></li>
                     <li id="feelsLike"></li>
                     <li id="wind"></li>

@@ -11,7 +11,7 @@ async function getWeather(city) {
 }
 export async function  WeatherBtnPressed(){
     let city = document.getElementById("city");
-    if(document.getElementById("chosenCity").value == ""){
+    if(document.getElementById("chosenCity").value === ""){
         alert("Enter city");
         return;
     }
@@ -24,7 +24,7 @@ export async function  WeatherBtnPressed(){
     
     let weather = await getWeather(document.getElementById("chosenCity").value);
 
-    if(weather == undefined){
+    if(weather === undefined){
         alert("Something went wrong!");
         return;
     }
