@@ -7,12 +7,12 @@ class Weather extends React.Component{
       <section className="contentPanel">
         <div className="gridContainer">
             <div className="weatherForm">
-                <h2>Enter <span>city</span> for the weather broadcast</h2>
+                <h2>Enter <span>city</span> for the weather forecast</h2>
                 <div id="WeatherContainer">
                     <div className="formControl">
                         <input id ="chosenCity" type="text" defaultValue="Moscow" autoComplete="off"/>
                     </div>
-                    <input id ="submitBtn" className="forecastBtn" onClick={weatherHandler} type="submit" defaultValue=""/>
+                    <input id ="submitBtn" className="forecastBtn" onClick={weatherHandler} type="button" defaultValue="See forecast"/>
                 </div>
             </div>
     
