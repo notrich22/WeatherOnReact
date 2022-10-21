@@ -6,6 +6,7 @@
 
 # production
 /build
+/remove
 
 # misc
 .DS_Store
