@@ -50,7 +50,7 @@ class Weather extends React.Component{
         });
     }
     render(){
-        return <div classNameName="App">
+        return <div className="App">
         <section className="contentPanel">
             <div className="gridContainer">
                 <div className="weatherForm">
