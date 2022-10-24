@@ -99,12 +99,14 @@ html {
 }
 
 .forecastResult ul {
+  max-width: 100%;
   list-style: none;
   text-align: center;
   margin: 10px 0;
 }
 
 .forecastResult ul li {
+  max-width: 100%;
   font-size: 30px;
   font-family: "Raleway";
   margin: 15px 0;
